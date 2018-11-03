@@ -1,17 +1,26 @@
 {
-  "name": "mytasklist",
+  "name": "iftiTaskList",
   "version": "1.0.0",
-  "description": "Simple task manager",
+  "description": "Simple task manager on Docker",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Iftikhar Ali <iali@estateably.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "mongojs": "^2.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iftiali/mean_mytasklist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iftiali/mean_mytasklist/issues"
+  },
+  "homepage": "https://github.com/iftiali/mean_mytasklist#readme"
 }
